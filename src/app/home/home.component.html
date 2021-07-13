@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <h1 class="mt-4 mb-4"> Tareas</h1>
+    <div class="row">
+        <div class="col-6">
+            <app-form (todoCreated)="onTodoCreated($event)"></app-form>
+        </div>
+        <div class="col-6">
+            <app-todo-list [todos]="todoList"></app-todo-list>
+        </div>
+    </div>
+</div>

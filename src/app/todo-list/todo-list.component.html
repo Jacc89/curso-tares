@@ -1,0 +1,6 @@
+<h2>Lista de tareas</h2>
+<div class="todos">
+    <ng-container *ngFor="let todo of todos">
+        <app-todo-card [todo]="todo"></app-todo-card>
+    </ng-container>
+</div>
